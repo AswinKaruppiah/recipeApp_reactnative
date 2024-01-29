@@ -1,0 +1,210 @@
+[
+  {
+    "name": "Chettinad",
+    "number": 1
+  },
+  {
+    "name": "Hyderabadi",
+    "number": 2
+  },
+  {
+    "name": "Continental",
+    "number": 3
+  },
+  {
+    "name": "Himachal",
+    "number": 4
+  },
+  {
+    "name": "Karnataka",
+    "number": 5
+  },
+  {
+    "name": "Mediterranean",
+    "number": 6
+  },
+  {
+    "name": "Goan Recipes",
+    "number": 8
+  },
+  {
+    "name": "Italian Recipes",
+    "number": 9
+  },
+  {
+    "name": "Indian",
+    "number": 10
+  },
+  {
+    "name": "South Indian Recipes",
+    "number": 12
+  },
+  {
+    "name": "Tamil Nadu",
+    "number": 20
+  },
+  {
+    "name": "French",
+    "number": 21
+  },
+  {
+    "name": "Middle Eastern",
+    "number": 26
+  },
+  {
+    "name": "Coorg",
+    "number": 28
+  },
+  {
+    "name": "North Indian Recipes",
+    "number": 29
+  },
+  {
+    "name": "Mangalorean",
+    "number": 30
+  },
+  {
+    "name": "Andhra",
+    "number": 33
+  },
+  {
+    "name": "Greek",
+    "number": 43
+  },
+  {
+    "name": "Mughlai",
+    "number": 44
+  },
+  {
+    "name": "Bengali Recipes",
+    "number": 45
+  },
+  {
+    "name": "Awadhi",
+    "number": 54
+  },
+  {
+    "name": "Mexican",
+    "number": 66
+  },
+  {
+    "name": "Chinese",
+    "number": 68
+  },
+  {
+    "name": "Thai",
+    "number": 69
+  },
+  {
+    "name": "Sichuan",
+    "number": 77
+  },
+  {
+    "name": "Punjabi",
+    "number": 80
+  },
+  {
+    "name": "Kashmiri",
+    "number": 86
+  },
+  {
+    "name": "Udupi",
+    "number": 88
+  },
+  {
+    "name": "African",
+    "number": 97
+  },
+  {
+    "name": "Konkan",
+    "number": 98
+  },
+  {
+    "name": "Assamese",
+    "number": 111
+  },
+  {
+    "name": "Indo Chinese",
+    "number": 112
+  },
+  {
+    "name": "Fusion",
+    "number": 116
+  },
+  {
+    "name": "Malvani",
+    "number": 119
+  },
+  {
+    "name": "Caribbean",
+    "number": 121
+  },
+  {
+    "name": "Maharashtrian Recipes",
+    "number": 125
+  },
+  {
+    "name": "Gujarati Recipes",
+    "number": 129
+  },
+  {
+    "name": "Pakistani",
+    "number": 138
+  },
+  {
+    "name": "Asian",
+    "number": 144
+  },
+  {
+    "name": "",
+    "number": 149
+  },
+  {
+    "name": "Kerala Recipes",
+    "number": 150
+  },
+  {
+    "name": "Sindhi",
+    "number": 175
+  },
+  {
+    "name": "Oriya Recipes",
+    "number": 186
+  },
+  {
+    "name": "Indonesian",
+    "number": 198
+  },
+  {
+    "name": "Uttar Pradesh",
+    "number": 277
+  },
+  {
+    "name": "Rajasthani",
+    "number": 280
+  },
+  {
+    "name": "European",
+    "number": 283
+  },
+  {
+    "name": "Parsi Recipes",
+    "number": 306
+  },
+  {
+    "name": "Bihari",
+    "number": 343
+  },
+  {
+    "name": "Vietnamese",
+    "number": 352
+  },
+  {
+    "name": "Coastal Karnataka",
+    "number": 353
+  },
+  {
+    "name": "Uttarakhand-North Kumaon",
+    "number": 527
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Lunch",
+    "number": 1
+  },
+  {
+    "name": "Appetizer",
+    "number": 3
+  },
+  {
+    "name": "Side Dish",
+    "number": 5
+  },
+  {
+    "name": "Dinner",
+    "number": 6
+  },
+  {
+    "name": "Main Course",
+    "number": 9
+  },
+  {
+    "name": "Snack",
+    "number": 13
+  },
+  {
+    "name": "South Indian Breakfast",
+    "number": 20
+  },
+  {
+    "name": "World Breakfast",
+    "number": 21
+  },
+  {
+    "name": "Dessert",
+    "number": 53
+  },
+  {
+    "name": "One Pot Dish",
+    "number": 63
+  },
+  {
+    "name": "Indian Breakfast",
+    "number": 89
+  },
+  {
+    "name": "North Indian Breakfast",
+    "number": 143
+  },
+  {
+    "name": "Brunch",
+    "number": 159
+  }
+]

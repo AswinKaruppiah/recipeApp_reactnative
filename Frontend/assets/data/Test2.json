@@ -1,0 +1,43 @@
+[
+  {
+    "name": "Vegetarian",
+    "number": 1
+  },
+  {
+    "name": "High Protein Vegetarian",
+    "number": 7
+  },
+  {
+    "name": "Non Vegeterian",
+    "number": 18
+  },
+  {
+    "name": "High Protein Non Vegetarian",
+    "number": 31
+  },
+  {
+    "name": "Gluten Free",
+    "number": 33
+  },
+  {
+    "name": "Vegan",
+    "number": 43
+  },
+  {
+    "name": "Eggetarian",
+    "number": 83
+  },
+  {
+    "name": "Diabetic Friendly",
+    "number": 129
+  },
+
+  {
+    "name": "Sugar Free Diet",
+    "number": 229
+  },
+  {
+    "name": "No Onion No Garlic (Sattvic)",
+    "number": 408
+  }
+]
