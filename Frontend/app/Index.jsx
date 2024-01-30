@@ -12,7 +12,7 @@ SplashScreen.preventAutoHideAsync();
 
 const Stack = createNativeStackNavigator();
 
-function index() {
+function Index() {
   const [fontsloaded] = useFonts({
     PopLight: require("../assets/fonts/Poppins-Light.ttf"),
     PopRegular: require("../assets/fonts/Poppins-Regular.ttf"),
@@ -47,4 +47,4 @@ function index() {
   );
 }
 
-export default index;
+export default Index;

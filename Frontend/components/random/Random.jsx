@@ -10,9 +10,10 @@ import {
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { useContext, useEffect } from "react";
-import { base_url } from "@env";
+
 import { LinearGradient } from "expo-linear-gradient";
 import { ApiContext } from "../context/Api";
+import { apiUrl } from "../../constants/theme";
 
 const Random = ({ navigation }) => {
   const {
@@ -27,7 +28,7 @@ const Random = ({ navigation }) => {
   } = useContext(ApiContext);
 
   useEffect(() => {
-    fetchdata(`${base_url}random`, "Random");
+    fetchdata(`${apiUrl}random`, "Random");
   }, []);
 
   return (
@@ -49,7 +50,7 @@ const Random = ({ navigation }) => {
             refreshControl={
               <RefreshControl
                 refreshing={refreshing}
-                onRefresh={() => onRefresh(`${base_url}random`, "Random")}
+                onRefresh={() => onRefresh(`${apiUrl}random`, "Random")}
               />
             }
           >

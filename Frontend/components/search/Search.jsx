@@ -14,9 +14,10 @@ import Box from "../Box/Box";
 import { AntDesign } from "@expo/vector-icons";
 import { useState, useCallback, useEffect } from "react";
 import axios from "axios";
-import { base_url } from "@env";
+
 import { useContext } from "react";
 import { ApiContext } from "../context/Api";
+import { apiUrl } from "../../constants/theme";
 
 const Search = ({ navigation }) => {
   const {
@@ -38,7 +39,7 @@ const Search = ({ navigation }) => {
   } = useContext(ApiContext);
 
   useEffect(() => {
-    fetchdata(`${base_url}random`, "Search");
+    fetchdata(`${apiUrl}random`, "Search");
   }, []);
 
   return (
@@ -65,8 +66,8 @@ const Search = ({ navigation }) => {
                     recenttext[0] === undefined
                       ? empty()
                       : title === undefined
-                      ? `${base_url}random`
-                      : `${base_url}search/${title}`,
+                      ? `${apiUrl}random`
+                      : `${apiUrl}search/${title}`,
                     "Search"
                   )
                 }
@@ -105,7 +106,7 @@ const Search = ({ navigation }) => {
                       <TouchableOpacity
                         onPress={async () => {
                           await fetchdata(
-                            `${base_url}search/${
+                            `${apiUrl}search/${
                               recenttext[recenttext.length - 1 - index]
                             }`,
                             "Search"

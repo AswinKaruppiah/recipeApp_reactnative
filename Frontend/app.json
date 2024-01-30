@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "recipe",
-    "slug": "recipe",
+    "slug": "reactnative",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/logo.png",
@@ -30,8 +30,9 @@
     "plugins": [],
     "extra": {
       "eas": {
-        "projectId": "7933cdd7-0ade-4b81-87ad-18ee3ac60dad"
+        "projectId": "242478a0-d6c7-470a-a1f1-3225a34a8cf7"
       }
-    }
+    },
+    "owner": "aswin27"
   }
 }
