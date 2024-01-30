@@ -103,12 +103,9 @@ function Detail(props) {
                       elevation: 10,
                     }}
                   >
-                    {data.instructions.split(".").length ===
-                    index + 1 ? null : (
-                      <Text className="text-sm pb-1 font-PopRegular">
-                        Step {index + 1}
-                      </Text>
-                    )}
+                    <Text className="text-sm pb-1 font-PopRegular">
+                      Step {index + 1}
+                    </Text>
 
                     <Text className="text-sm  font-Poplight">
                       {item || "No info"}

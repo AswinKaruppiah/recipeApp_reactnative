@@ -14,7 +14,7 @@ import course from "../../assets/data/course.json";
 import { useContext, useEffect } from "react";
 import { ApiContext } from "../context/Api";
 import Box from "../Box/Box";
-import { Fe } from "../../constants/theme";
+import { Fe, apiUrl } from "../../constants/theme";
 
 const All = ({ navigation }) => {
   const {
@@ -68,12 +68,7 @@ const All = ({ navigation }) => {
                 source={logo}
                 className="h-14 w-14  object-contain -mt-2  rounded-full"
               />
-              <Text
-                onPress={() => {
-                  navigation.navigate("details");
-                }}
-                className="text-4xl font-PopRegular text-green-400 "
-              >
+              <Text className="text-4xl font-PopRegular text-green-400 ">
                 Food Day
               </Text>
             </View>

@@ -2,8 +2,9 @@
 /* eslint-disable no-unused-vars */
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import { base_url } from "@env";
+
 import AsyncStorage from "@react-native-async-storage/async-storage";
+import { Fe } from "../../constants/theme";
 
 export const ApiContext = React.createContext();
 
@@ -59,7 +60,7 @@ export const Apiprovider = ({ children }) => {
     if (!value) {
       return alert("no data");
     } else {
-      await fetchdata(`${base_url}search/${value}`, "Search");
+      await fetchdata(`${Fe}search/${value}`, "Search");
       setrecenttext((pre) => [...pre, value]);
       settitle(value);
       setvalue("");
@@ -74,7 +75,7 @@ export const Apiprovider = ({ children }) => {
 
   function empty() {
     settitle("Popular Search");
-    return `${base_url}random`;
+    return `${Fe}random`;
   }
 
   function shallowEqualityCheck(obj1, obj2) {
