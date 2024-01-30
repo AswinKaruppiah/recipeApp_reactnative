@@ -13,7 +13,7 @@ import { useContext, useEffect } from "react";
 
 import { LinearGradient } from "expo-linear-gradient";
 import { ApiContext } from "../context/Api";
-import { apiUrl } from "../../constants/theme";
+import { Fe, apiUrl } from "../../constants/theme";
 
 const Random = ({ navigation }) => {
   const {
@@ -28,7 +28,7 @@ const Random = ({ navigation }) => {
   } = useContext(ApiContext);
 
   useEffect(() => {
-    fetchdata(`${apiUrl}random`, "Random");
+    fetchdata(`${Fe}random`, "Random");
   }, []);
 
   return (
@@ -50,7 +50,7 @@ const Random = ({ navigation }) => {
             refreshControl={
               <RefreshControl
                 refreshing={refreshing}
-                onRefresh={() => onRefresh(`${apiUrl}random`, "Random")}
+                onRefresh={() => onRefresh(`${Fe}random`, "Random")}
               />
             }
           >

@@ -17,7 +17,7 @@ import axios from "axios";
 
 import { useContext } from "react";
 import { ApiContext } from "../context/Api";
-import { apiUrl } from "../../constants/theme";
+import { Fe } from "../../constants/theme";
 
 const Search = ({ navigation }) => {
   const {
@@ -39,7 +39,7 @@ const Search = ({ navigation }) => {
   } = useContext(ApiContext);
 
   useEffect(() => {
-    fetchdata(`${apiUrl}random`, "Search");
+    fetchdata(`${Fe}random`, "Search");
   }, []);
 
   return (
@@ -66,8 +66,8 @@ const Search = ({ navigation }) => {
                     recenttext[0] === undefined
                       ? empty()
                       : title === undefined
-                      ? `${apiUrl}random`
-                      : `${apiUrl}search/${title}`,
+                      ? `${Fe}random`
+                      : `${Fe}search/${title}`,
                     "Search"
                   )
                 }
@@ -106,7 +106,7 @@ const Search = ({ navigation }) => {
                       <TouchableOpacity
                         onPress={async () => {
                           await fetchdata(
-                            `${apiUrl}search/${
+                            `${Fe}search/${
                               recenttext[recenttext.length - 1 - index]
                             }`,
                             "Search"

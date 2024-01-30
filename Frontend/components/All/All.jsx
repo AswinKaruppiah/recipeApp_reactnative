@@ -14,7 +14,7 @@ import course from "../../assets/data/course.json";
 import { useContext, useEffect } from "react";
 import { ApiContext } from "../context/Api";
 import Box from "../Box/Box";
-import { apiUrl } from "../../constants/theme";
+import { Fe } from "../../constants/theme";
 
 const All = ({ navigation }) => {
   const {
@@ -30,7 +30,7 @@ const All = ({ navigation }) => {
   } = useContext(ApiContext);
 
   useEffect(() => {
-    fetchdata(`${apiUrl}random`, "All");
+    fetchdata(`${Fe}random`, "All");
   }, []);
 
   return (
@@ -55,8 +55,8 @@ const All = ({ navigation }) => {
                 onRefresh={() =>
                   onRefresh(
                     activetab === undefined
-                      ? `${apiUrl}random`
-                      : `${apiUrl}course/${activetab}`,
+                      ? `${Fe}random`
+                      : `${Fe}course/${activetab}`,
                     "All"
                   )
                 }
@@ -90,7 +90,7 @@ const All = ({ navigation }) => {
                     className="-mr-0.5 bg-green-100 px-5 py-1 rounded-2xl  "
                     onPress={() => {
                       setactivetab(item.name);
-                      fetchdata(`${apiUrl}course/${item.name}`, "All");
+                      fetchdata(`${Fe}course/${item.name}`, "All");
                     }}
                   >
                     <Text className="font-Poplight text-green-500  text-base">
