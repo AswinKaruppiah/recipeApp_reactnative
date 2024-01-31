@@ -7,8 +7,8 @@ const Login = ({ navigation }) => {
   return (
     <SafeAreaView style={styles.center} className="h-full relative">
       <View className="absolute bottom-10  ">
-        <Image source={logo} className="h-80 w-80 object-contain mb-7" />
-        <View className="flex flex-col  justify-center items-center">
+        <Image source={logo} className="h-80 w-80 -mb-10  object-contain " />
+        <View className="flex flex-col justify-center items-center">
           <Text className="text-3xl font-PopMedium  pb-5">
             Your <Text className="text-green-500">Recipe Haven</Text> Awaits
             Exploration!
