@@ -54,7 +54,7 @@ export const course = async (req, res) => {
 
       {
         $sample: {
-          size: 50,
+          size: 20,
         },
       },
     ]);
@@ -87,7 +87,7 @@ export const diet = async (req, res) => {
 // Random
 export const random = async (req, res) => {
   try {
-    const recipe = await Recipe.aggregate([{ $sample: { size: 50 } }]);
+    const recipe = await Recipe.aggregate([{ $sample: { size: 20 } }]);
 
     res.status(200).json(recipe);
     // var size = Recipe.collection.count();
@@ -105,7 +105,7 @@ export const search = async (req, res) => {
       },
       {
         $sample: {
-          size: 50,
+          size: 20,
         },
       },
     ]);
